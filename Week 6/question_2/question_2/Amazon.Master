@@ -1,0 +1,43 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Amazon.master.cs" Inherits="question_2.Amazon" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+    <title></title>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server">
+        <div>
+            <asp:Label runat="server" ID="Name" style="align-content:center;">Amazon</asp:Label>
+            <br />
+            <br />
+            <asp:Image runat="server" ID="Logo" ImageUrl="~/Amazon.jpg" style="align-content:center; width:250px; height:200px;" />
+            <br />
+            <hr />
+            <br />
+            <div style="align-content:center">
+                <asp:HyperLink runat="server" ID="Electronics" NavigateUrl="~/Electronics.aspx">Electronics</asp:HyperLink>
+                <asp:HyperLink runat="server" ID="Baggages" NavigateUrl="~/Baggages.aspx">Baggages</asp:HyperLink>
+                <asp:HyperLink runat="server" ID="Offers" NavigateUrl="~/Offers.aspx">Offers</asp:HyperLink>
+            </div>
+            <br />
+            <hr />
+            <br />
+            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+            </asp:ContentPlaceHolder>
+            <br />
+            <hr />
+            <br />
+            <div style="align-content:center">
+                <asp:Label runat="server" ID="contactNo">Contact number: 0000-0000</asp:Label>
+                <br />
+                <asp:Label runat="server" ID="email">Email: amazon@gmail.com</asp:Label>
+            </div>
+            
+        </div>
+    </form>
+</body>
+</html>
