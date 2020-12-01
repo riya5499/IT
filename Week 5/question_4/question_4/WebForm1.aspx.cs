@@ -26,7 +26,6 @@ namespace question_4
                 successfulCounter = (int)Application["SuccessfulLoginCount"];
                 successfulCounter++;
                 Application["SuccessfulLoginCount"] = successfulCounter;
-                Application["comingFromPage2"] = "no";
                 Response.Redirect("WebForm2.aspx");
 
             }
