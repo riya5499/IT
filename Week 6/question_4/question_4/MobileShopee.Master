@@ -1,0 +1,25 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="MobileShopee.Master.cs" Inherits="question_4.MobileShoppe" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+    <title></title>
+    <asp:ContentPlaceHolder ID="head" runat="server"></asp:ContentPlaceHolder>
+    <link rel="stylesheet" href="~/Master.css" type="text/css" />
+</head>
+<body>
+    <form id="form1" runat="server">
+        <div>
+            <asp:ContentPlaceHolder ID="Header" runat="server"></asp:ContentPlaceHolder>
+            <br />
+            <hr />
+            <asp:ContentPlaceHolder ID="LeftPanel" runat="server"></asp:ContentPlaceHolder>
+            <asp:ContentPlaceHolder ID="RightPanel" runat="server"></asp:ContentPlaceHolder>
+            <br />
+            <hr />
+            <asp:ContentPlaceHolder ID="Footer" runat="server"></asp:ContentPlaceHolder>
+        </div>
+    </form>
+</body>
+</html>
