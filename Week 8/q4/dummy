@@ -1,0 +1,15 @@
+CREATE TABLE [dbo].[Actors]
+(
+	[id] NCHAR(10) NOT NULL PRIMARY KEY, 
+    [name] VARCHAR(50) NULL, 
+    [age] NCHAR(10) NULL, 
+    [category] VARCHAR(50) NOT NULL
+);
+
+1         	Johnny Lever	59        	Comedy
+2         	Paresh Rawal	60        	Comedy
+3         	Shahrukh Khan	55        	Romance
+4         	Ranbir Kapoor	38        	Romance
+5         	Simba	10        	Animated
+6         	Mowgli	10        	Animated
+NULL	NULL	NULL	NULL
