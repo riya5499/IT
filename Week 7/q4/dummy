@@ -1,0 +1,24 @@
+CREATE TABLE [dbo].[WORKS] (
+    [empName]     NCHAR (20) NOT NULL,
+    [companyName] NCHAR (20) NOT NULL,
+    [salary]      INT        NOT NULL,
+    PRIMARY KEY CLUSTERED ([empName] ASC)
+);
+
+CREATE TABLE [dbo].[LIVES] (
+    [empName] NCHAR (20) NOT NULL,
+    [street]  NCHAR (10) NOT NULL,
+    [city]    NCHAR (10) NOT NULL,
+    PRIMARY KEY CLUSTERED ([empName] ASC)
+);
+
+Aneeta              	DBOI                	100000
+Kush                	Amazon              	1000000
+Riya                	SAP                 	100000
+Sonakshi            	Goldman Sachs       	100000
+NULL	NULL	NULL
+
+Aneeta              	Chembur   	Mumbai    
+Riya                	Wakad     	Pune      
+Sonakshi            	MG Road   	Bangalore 
+NULL	NULL	NULL
