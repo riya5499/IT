@@ -1,0 +1,12 @@
+CREATE TABLE [dbo].[Package] (
+    [Place] NCHAR (20) NOT NULL,
+    [Days]  INT        NOT NULL,
+    [Cost]  INT        NOT NULL,
+    PRIMARY KEY CLUSTERED ([Place] ASC)
+);
+
+
+Kulu-Manali         	5	20000
+Ooty-Kodaikanal     	4	20000
+Shimla-Darjeeling   	6	15000
+NULL	NULL	NULL
