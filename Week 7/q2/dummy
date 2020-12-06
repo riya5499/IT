@@ -1,0 +1,12 @@
+CREATE TABLE [dbo].[Legends] (
+    [id]       INT        NOT NULL,
+    [name]     NCHAR (50) NOT NULL,
+    [age]      NCHAR (10) NOT NULL,
+    [category] NCHAR (50) NOT NULL,
+    PRIMARY KEY CLUSTERED ([id] ASC)
+);
+
+1	Johny Lever                                       	59        	Comedy                                            
+2	Shahrukh Khan                                     	55        	Romance                                           
+3	Simba                                             	10        	Animated                                          
+NULL	NULL	NULL	NULL
