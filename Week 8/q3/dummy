@@ -1,1 +1,21 @@
+CREATE TABLE [dbo].[City] (
+    [CityName] VARCHAR (50) NOT NULL,
+    [StateID]  INT          NOT NULL
+);
 
+ 	1
+                                                  	4
+                                                  	5
+Bhopal              	3
+                                                  	3
+                                                  	2
+Ludhiana            	5
+Mumbai	1
+Pune                	1
+Udaipur             	2
+Vadodra             	4
+Jaipur	2
+Indore	3
+Ahmedabad           	4
+Amritsar            	5
+NULL	NULL
