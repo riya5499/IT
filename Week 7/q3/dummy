@@ -1,0 +1,12 @@
+CREATE TABLE [dbo].[Items] (
+    [itemID]  INT        NOT NULL,
+    [flavour] NCHAR (50) NOT NULL,
+    [price]   INT        NOT NULL,
+    [taste]   NCHAR (50) NOT NULL,
+    PRIMARY KEY CLUSTERED ([itemID] ASC)
+);
+
+11	Vanilla                                           	80	sweet                                             
+22	Pista                                             	100	tangy                                             
+55	Butter Scotch                                     	150	sweet                                             
+NULL	NULL	NULL	NULL
