@@ -1,1 +1,14 @@
+Varun	23	Clerk	10000
+Tejas	32	Manager	40000
+Venkat	40	Senior Manager	60000
+Swati	25	Analyst	30000
+Shreya	30	Senior Analyst	40000
+
+CREATE TABLE [dbo].[Staff] (
+    [Name]        VARCHAR (50) NOT NULL,
+    [Age]         INT          NOT NULL,
+    [Designation] VARCHAR (50) NOT NULL,
+    [Salary]      INT          NOT NULL
+);
+
 
