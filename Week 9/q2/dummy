@@ -1,0 +1,15 @@
+1	Paulo	Coelho	Alchemist	Adventure	100
+2	Anne	Frank	The Diary a Young Girl	Autobiography	90
+3	Khaled	Hosseni	Kite Runner	Historical Fiction	80
+4	George	Martin	A song of Ice and Fire	Fantasy	150
+5	F. Scott	Fitzgerald	The Great Gatsby	Tragedy	80
+
+CREATE TABLE [dbo].[Author]
+(
+	[Id] INT NOT NULL PRIMARY KEY, 
+    [FirstName] VARCHAR(50) NOT NULL, 
+    [LastName] VARCHAR(50) NOT NULL, 
+    [Book Title] VARCHAR(50) NOT NULL, 
+    [Genre] VARCHAR(50) NOT NULL, 
+    [CopiesSold] INT NOT NULL
+)
