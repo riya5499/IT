@@ -1,0 +1,24 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Site1.master.cs" Inherits="extra_3.Site1" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+    <title></title>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server">
+        <div>
+            <asp:ContentPlaceHolder ID="Dropdown" runat="server"></asp:ContentPlaceHolder>
+            <br /><br />
+            <asp:ContentPlaceHolder ID="Panel" runat="server"></asp:ContentPlaceHolder>
+            <br /><br />
+            <asp:ContentPlaceHolder ID="Label" runat="server"></asp:ContentPlaceHolder>
+            <br /><br />
+            <asp:ContentPlaceHolder ID="Buttons" runat="server"></asp:ContentPlaceHolder>
+        </div>
+    </form>
+</body>
+</html>
